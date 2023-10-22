@@ -720,7 +720,9 @@ ol {
   width: 100%;
   height: 100%;
   font-size: 80px;
-  background: rgba(255, 255, 255, 0.5);
+  color: #fff;
+  background: rgba(255, 255, 255, 0.3);
+  transition: 0.3s;
   -o-object-fit: cover;
   object-fit: cover;
 }
@@ -762,7 +764,7 @@ ol {
 .sc-problem .content {
   position: relative;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   height: 100%;
   color: #282828;
   line-height: 1.5;
@@ -803,6 +805,11 @@ ol {
   font-size: 50px;
   letter-spacing: -0.01em;
   /* overflow: hidden; */
+}
+
+.sc-problem .title em {
+  color: #04a6e1;
+  font-weight: 800;
 }
 
 .sc-problem .title + .title {
